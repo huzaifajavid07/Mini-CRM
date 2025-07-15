@@ -11,7 +11,7 @@ export default function ClientDetail() {
     return (
       <div className="p-6">
         <h2 className="text-2xl text-red-600 font-bold mb-4 animate-pulse">
-          ⚠️ Client not found
+           Client not found
         </h2>
         <Link
           to="/client"
@@ -23,7 +23,7 @@ export default function ClientDetail() {
     );
   }
 
-  // Example of additional client data
+  
   const details = {
     description: client.description || "No description available.",
     createdAt: client.createdAt || "2024-01-15",

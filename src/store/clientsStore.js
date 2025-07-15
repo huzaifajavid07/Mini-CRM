@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { loadData, saveData } from '../utils/storage';
 
-// load from localStorage (if any) on first run
+
 import { dummyClients } from '../utils/dummyClients';
 const initialClients = loadData('clients') || dummyClients;
 

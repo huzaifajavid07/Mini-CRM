@@ -28,7 +28,7 @@ if (!user) {
   return <Navigate to="/login" replace state={{ from: location }} />;
 }
 
-// 👇 If user is already logged in and still on /login, send to dashboard
+
 if (user && location.pathname === "/login") {
   return <Navigate to="/dashboard" replace />;
 }

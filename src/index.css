@@ -5,7 +5,7 @@ body {
   @apply min-h-screen;
   font-family: 'Inter', sans-serif;
 
-  /* Subtle green gradient background */
+ 
   background: linear-gradient(135deg, #e6f4ea, #d2f1d0);
   background-attachment: fixed;
   background-size: cover;

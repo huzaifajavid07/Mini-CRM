@@ -52,13 +52,13 @@ export default function LoginPage() {
       setIsRegister(false);
       return;
     } else {
-      // ✅ first try login
+     
       await signInWithEmailAndPassword(auth, email, password);
 
       localStorage.setItem("loggedIn", "true");
       showToast("✅ Logged in successfully.");
       
-      // ✅ only open window after successful login
+     
       const newWindow = window.open("/dashboard", "_blank", "noopener,noreferrer");
 
       if (newWindow) {

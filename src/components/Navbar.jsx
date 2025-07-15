@@ -34,7 +34,7 @@ export default function Navbar() {
     navigate('/login');
   };
 
-  // 👇 If we are on `/` (login page), force login-navbar only
+  
   if (location.pathname === '/' || location.pathname === '/login') {
     return (
       <header className="bg-white shadow sticky top-0 z-50">

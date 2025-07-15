@@ -8,7 +8,7 @@ export default function LoadingPage() {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
-        // when logged in, redirect to dashboard
+        
         window.location.href = "/dashboard";
       }
     });
